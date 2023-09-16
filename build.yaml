@@ -11,9 +11,9 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
-include:
-  - board: nice_nano_v2
-    shield: cradio_left
-  - board: nice_nano_v2
-    shield: cradio_right
+# ---
+# include:
+#   - board: nice_nano_v2
+#     shield: cradio_left
+#   - board: nice_nano_v2
+#     shield: cradio_right
