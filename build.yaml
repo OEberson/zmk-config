@@ -4,15 +4,15 @@
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
-board: ["nice_nano_v2"]
-shield: ["koalakeeb_left", "koalakeeb_right"]
-include:
-  - board: nice_nano_v2
-    shield: koalakeeb
-#
-# ---
+# board: ["nice_nano_v2"]
+# shield: ["koalakeeb_left", "koalakeeb_right"]
 # include:
 #   - board: nice_nano_v2
-#     shield: cradio_left
-#   - board: nice_nano_v2
-#     shield: cradio_right
+#     shield: koalakeeb
+#
+# ---
+include:
+  - board: nice_nano_v2
+    shield: koalakeeb_left
+  - board: nice_nano_v2
+    shield: koalakeeb_right
