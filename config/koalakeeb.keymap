@@ -41,7 +41,7 @@
             layers = <0>;
          };
          combo_esc2 {
-            timeout-ms = <50>;
+            timeout-ms = <150>;
             key-positions = <10 19>;
             bindings = <&kp ESC>;
             layers = <0>;
