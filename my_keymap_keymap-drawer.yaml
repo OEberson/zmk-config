@@ -1,0 +1,227 @@
+# FILL IN below field with a value like {qmk_keyboard: ferris/sweep}
+# or {ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2}}
+# see https://github.com/caksoylar/keymap-drawer/blob/main/KEYMAP_SPEC.md#layout
+layout:
+  qmk_keyboard: ferris/sweep
+layers:
+  noted:
+  - Z
+  - Y
+  - U
+  - A
+  - Q
+  - P
+  - B
+  - M
+  - L
+  - F
+  - {t: C, h: intuitive}
+  - {t: S, h: LALT}
+  - {t: I, h: LCTRL}
+  - {t: E, h: LGUI}
+  - O
+  - D
+  - {t: T, h: RGUI}
+  - {t: N, h: RCTRL}
+  - {t: R, h: RALT}
+  - {t: H, h: intuitive}
+  - V
+  - X
+  - ","
+  - "."
+  - "-"
+  - W
+  - G
+  - J
+  - "ß"
+  - K
+  - {t: ENTER, h: sym}
+  - LSHIFT
+  - SPACE
+  - {t: BSPC, h: numnav}
+  intuitive:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ü
+  - Ä
+  - "@"
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - µ
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - $
+  - {t: ▽, type: trans}
+  - HOME
+  - Ö
+  - {t: ▽, type: trans}
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - {t: ▽, type: trans}
+  - DEL
+  numnav:
+  - INS
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - UARW
+  - END
+  - {t: ▽, type: trans}
+  - DEL
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LARW
+  - DARW
+  - RARW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  sym:
+  - {t: ▽, type: trans}
+  - "\""
+  - "'"
+  - "#"
+  - "%"
+  - "^"
+  - "="
+  - "/"
+  - "\\"
+  - "~"
+  - "!" 
+  - "?"
+  - "{"
+  - "}"
+  - {t: ▽, type: trans}
+  - "*"
+  - "("
+  - ")"
+  - "["
+  - "]"
+  - "<"
+  - ">"
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - "&"
+  - "_"
+  - "+"
+  - "|"
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  fun:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  sys:
+  - '&sys_reset'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - '&bootloader'
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+combos:
+- p: [0, 10]
+  k: ESC
+  l: [noted]
+- p: [10, 19]
+  k: ESC
+  l: [noted]
+- p: [20, 29]
+  k: '&caps_word'
+  l: [noted]
+
