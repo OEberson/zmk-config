@@ -1,0 +1,11 @@
+file_format: "1"
+id: koalakeeb
+name: KoalaKeeb
+type: shield
+url: https://github.com/OEberson/KoalaKeeb
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - koalakeeb_left
+  - koalakeeb_right
