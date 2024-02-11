@@ -254,10 +254,10 @@ path.combo {
 <text x="28" y="108" class="combo tap">ESC</text>
 </g>
 <g class="combo combopos-1">
-<path d="M336,136 l-289,0" class="combo"/>
-<path d="M336,136 l289,0" class="combo"/>
-<rect rx="6" ry="6" x="322" y="123" width="28" height="26" class="combo"/>
-<text x="336" y="136" class="combo tap">ESC</text>
+<path d="M336,80 l-289,0" class="combo"/>
+<path d="M336,80 l289,0" class="combo"/>
+<rect rx="6" ry="6" x="322" y="67" width="28" height="26" class="combo"/>
+<text x="336" y="80" class="combo tap">ESC</text>
 </g>
 <g class="combo combopos-2">
 <path d="M336,192 l-289,0" class="combo"/>

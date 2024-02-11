@@ -218,7 +218,7 @@ combos:
   - p: [0, 10]
     k: ESC
     l: [noted]
-  - p: [10, 19]
+  - p: [0, 9]
     k: ESC
     l: [noted]
   - p: [20, 29]
