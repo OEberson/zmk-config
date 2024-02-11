@@ -81,7 +81,7 @@
             &lt 1 C    HRML(S,         I,         E)     &kp O          &kp D      HRMR(T,        N,         R)    &lt 1 H
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  V       │  X       │  ,       │  .       │  -       │   │  W       │  G       │ J        │ ß        │   K      │
-            &kp V      &kp X      &kp COMMA   &kp DOT    &kp MINUS      &kp W      &kp G      &kp J     &kp DE_SZ    &kp K
+            &kp V      &kp X     &kp DE_COMMA &kp DE_DOT &kp DE_MINUS   &kp W      &kp G      &kp J     &kp DE_SZ    &kp K
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 3 ENTER &kp LSHIFT    &kp SPACE   &lt 2 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -126,13 +126,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  "       │  '       │  #       │  %       │   │  ^       │  =       │  /       │  \       │  ~       │
-            &trans     &kp DQT     &kp SQT   &kp HASH    &kp PRCNT      &kp CARET  &kp EQUAL  &kp SLASH  &kp BSLH   &kp TILDE
+            &trans     &kp DE_DQT &kp DE_SQT &kp DE_HASH &kp DE_PRCNT &kp DE_CARET &kp DE_EQUAL &kp SLASH &kp DE_BSLH &kp DE_TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  ?       │  {       │  }       │          │   │  *       │  (       │  )       │  [       │  ]       │
-            &kp EXCL   &kp QMARK   &kp LBRC   &kp RBRC   &trans         &kp ASTRK  &kp LPAR  &kp RPAR    &kp LBKT   &kp RBKT
+            &kp DE_EXCL &kp DE_QMARK &kp DE_LBRC &kp DE_RBRC &trans  &kp DE_ASTRK &kp DE_LPAR &kp DE_RPAR &kp DE_LBKT &kp DE_RBKT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  <       │  >       │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp LT     &kp         &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
+            &kp DE_LT  &kp DE_GT   &trans     &trans     &trans        &kp DE_AMPS &kp DE_UNDER &kp DE_PLUS &kp DE_PIPE &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
