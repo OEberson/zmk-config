@@ -98,9 +98,9 @@
             &trans     &kp DOLLAR &trans     &kp HOME  &kp DE_O_UMLAUT  &trans     &kp END    &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans    &trans           &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp TAB         &trans     &kp DEL
+                                             &trans     &trans          &kp TAB    &kp DEL
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
