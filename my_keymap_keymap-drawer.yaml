@@ -99,14 +99,14 @@ layers:
     - "7"
     - "8"
     - "9"
-    - "0"
+    - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - ","
     - .
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - "0"
     - { t: ▽, type: trans }
     - { type: held }
   sym:
