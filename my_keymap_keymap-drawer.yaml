@@ -1,6 +1,3 @@
-# FILL IN below field with a value like {qmk_keyboard: ferris/sweep}
-# or {ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2}}
-# see https://github.com/caksoylar/keymap-drawer/blob/main/KEYMAP_SPEC.md#layout
 layout:
   qmk_keyboard: ferris/sweep
 layers:
@@ -180,7 +177,7 @@ layers:
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
   sys:
-    - "&sys_reset"
+    - "sys_reset"
     - { t: BT, h: "0" }
     - { t: BT, h: "1" }
     - { t: BT, h: "2" }
@@ -189,8 +186,8 @@ layers:
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
-    - "&sys_reset"
-    - "&bootloader"
+    - "sys_reset"
+    - "bootloader"
     - { t: BT, h: "3" }
     - { t: BT, h: "4" }
     - { t: ▽, type: trans }
@@ -199,7 +196,7 @@ layers:
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
-    - "&bootloader"
+    - "bootloader"
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
@@ -221,6 +218,10 @@ combos:
   - p: [0, 9]
     k: ESC
     l: [noted]
+    a: top
+    o: 1.2
   - p: [20, 29]
-    k: "&caps_word"
+    k: "CAPSWORD"
     l: [noted]
+    a: bottom
+    o: 1.5
