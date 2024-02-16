@@ -68,8 +68,8 @@ layers:
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
-    - TAB
     - { t: ▽, type: trans }
+    - TAB
     - DEL
   numnav:
     - INS
