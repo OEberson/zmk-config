@@ -147,11 +147,11 @@ layers:
     - F2
     - F3
     - F12
+    - mute
+    - vol down
+    - vol up
     - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - playpause
     - { t: ▽, type: trans }
     - F4
     - F5

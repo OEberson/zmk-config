@@ -142,8 +142,8 @@
         fun_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &kp F1     &kp F2     &kp F3    &kp F12         &trans     &trans     &trans     &trans     &trans
+        //│          │          │          │          │          │   │  mute    │ vol down │ vol up   │          │ playpause│
+            &trans     &kp F1     &kp F2     &kp F3    &kp F12       &kp C_MUTE &kp C_VOL_DOWN &kp C_VOL_UP &trans &kp C_PP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //|          │          │          │          │          │   │          │          │          │          |          |
             &trans     &kp F4     &kp F5     &kp F6    &kp F11         &trans     &trans     &trans     &trans     &trans
