@@ -131,8 +131,8 @@
         //│  !       │  ?       │  {       │  }       │          │   │  *       │  (       │  )       │  [       │  ]       │
             &kp DE_EXCL &kp DE_QMARK &kp DE_LBRC &kp DE_RBRC &trans  &kp DE_ASTRK &kp DE_LPAR &kp DE_RPAR &kp DE_LBKT &kp DE_RBKT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  <       │  >       │          │          │          │   │          │  &       │  +       │  │       │  ^       │
-            &kp DE_LT  &kp DE_GT &kp DE_SEMI &kp DE_COLON &kp DE_UNDER &trans    &kp DE_AMPS &kp DE_PLUS &kp DE_PIPE &kp DE_CARET
+        //│  <       │  >       │          │          │          │   │  €       │  &       │  +       │  │       │  ^       │
+            &kp DE_LT  &kp DE_GT &kp DE_SEMI &kp DE_COLON &kp DE_UNDER &DE_EURO   &kp DE_AMPS &kp DE_PLUS &kp DE_PIPE &kp DE_CARET
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
