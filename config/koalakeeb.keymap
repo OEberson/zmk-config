@@ -24,14 +24,6 @@
         };
     };
 
-//    conditional_layers {
-//        compatible = "zmk,conditional-layers";
-//        tri_layer {
-//            if-layers = <2 3>;
-//            then-layer = <4>;
-//        };
-//    };
-
      combos {
          compatible = "zmk,combos";
          combo_esc {
@@ -108,11 +100,11 @@
         numnav_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ INSERT   │  1       │  2       │  3       │          │   │          │ HOME     │ UP       │ END      │          │
-            &kp INS    &kp N1     &kp N2     &kp N3     &trans         &trans     &kp HOME   &kp UARW   &kp END    &trans
+        //│ INSERT   │  1       │  2       │  3       │shift-ctrl-tab│ ctrl-tab │ HOME     │ UP       │ END      │          │
+            &kp INS    &kp N1     &kp N2     &kp N3   &kp LC(LS(TAB)) &kp LC(TAB) &kp HOME   &kp UARW   &kp END    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ DELETE   │  4       │  5       │  6       │          │   │          │ LEFT     │ DOWN     │ RIGHT    │          │
-            &kp DEL     &kp N4   &kp N5     &kp N6      &trans         &trans     &kp LARW   &kp DARW   &kp RARW   &trans
+        //│ DELETE   │  4       │  5       │  6       │shift-alt-tab │ alt-tab  │ LEFT     │ DOWN     │ RIGHT    │          │
+            &kp DEL     &kp N4   &kp N5     &kp N6    &kp LA(LS(TAB))  &kp LA(TAB) &kp LARW   &kp DARW   &kp RARW   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  7       │  8       │  9       │          │   │          │          │ ,        │ .        │          │
            &trans      &kp N7     &kp N8     &kp N9     &trans         &trans     &trans     &kp COMMA  &kp DOT    &trans
