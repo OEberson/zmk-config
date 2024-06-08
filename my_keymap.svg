@@ -111,18 +111,7 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
-
-@media (prefers-color-scheme: dark) {
-svg.keymap { fill: #d1d6db; }
-rect.key { fill: #3f4750; }
-rect.key, rect.combo { stroke: #60666c; }
-rect.combo, rect.combo-separate { fill: #1f3d7a; }
-rect.held, rect.combo.held { fill: #854747; }
-text.label, text.footer { stroke: black; }
-text.trans { fill: #7e8184; }
-path.combo { stroke: #7f7f7f; }
-
-}</style>
+</style>
 <g transform="translate(30, 0)" class="layer-noted">
 <text x="0" y="28" class="label">noted:</text>
 <g transform="translate(0, 84)">
@@ -273,19 +262,19 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="24" class="key hold">numnav</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="14" y="96" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="6" y="96" width="45" height="26" class="combo"/>
 <text x="28" y="109" class="combo tap">ESC</text>
 </g>
 <g class="combo combopos-1">
 <path d="M336,-15 h-302 a6.0,6.0 0 0 0 -6.0,6.0 v72" class="combo"/>
 <path d="M336,-15 h302 a6.0,6.0 0 0 1 6.0,6.0 v72" class="combo"/>
-<rect rx="6" ry="6" x="322" y="-28" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="314" y="-28" width="45" height="26" class="combo"/>
 <text x="336" y="-15" class="combo tap">ESC</text>
 </g>
 <g class="combo combopos-2">
 <path d="M336,306 h-302 a6.0,6.0 0 0 1 -6.0,-6.0 v-88" class="combo"/>
 <path d="M336,306 h302 a6.0,6.0 0 0 0 6.0,-6.0 v-88" class="combo"/>
-<rect rx="6" ry="6" x="322" y="293" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="314" y="293" width="45" height="26" class="combo"/>
 <text x="336" y="306" class="combo tap"><tspan style="font-size: 88%">CAPSWORD</tspan></text>
 </g>
 </g>
