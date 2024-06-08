@@ -125,8 +125,8 @@
         sym_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  "       │  '       │  #       │  %       │   │          │  =       │  /       │  \       │  ~       │
-            &trans     &kp DE_DQT &kp DE_SQT &kp DE_HASH &kp DE_PRCNT  &trans   &kp DE_EQUAL &kp DE_SLASH &kp DE_BSLH &kp DE_TILDE
+        //│  ´       │  "       │  '       │  #       │  %       │   │          │  =       │  /       │  \       │  ~       │
+           &kp DE_ACUTE &kp DE_DQT &kp DE_SQT &kp DE_HASH &kp DE_PRCNT  &trans   &kp DE_EQUAL &kp DE_SLASH &kp DE_BSLH &kp DE_TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  ?       │  {       │  }       │          │   │  *       │  (       │  )       │  [       │  ]       │
             &kp DE_EXCL &kp DE_QMARK &kp DE_LBRC &kp DE_RBRC &trans  &kp DE_ASTRK &kp DE_LPAR &kp DE_RPAR &kp DE_LBKT &kp DE_RBKT
