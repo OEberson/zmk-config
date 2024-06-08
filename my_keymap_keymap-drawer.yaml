@@ -76,8 +76,8 @@ layers:
     - "1"
     - "2"
     - "3"
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - ctrl-s-tab
+    - ctrl-tab
     - HOME
     - UARW
     - END
@@ -86,8 +86,8 @@ layers:
     - "4"
     - "5"
     - "6"
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - alt-s-tab
+    - alt-tab
     - LARW
     - DARW
     - RARW
@@ -107,7 +107,7 @@ layers:
     - { t: ▽, type: trans }
     - { type: held }
   sym:
-    - { t: ▽, type: trans }
+    - "´"
     - '"'
     - "'"
     - "#"
@@ -147,20 +147,20 @@ layers:
     - F2
     - F3
     - F12
-    - mute
+    - { t: ▽, type: trans }
     - vol down
+    - mute
     - vol up
     - { t: ▽, type: trans }
-    - playpause
     - { t: ▽, type: trans }
     - F4
     - F5
     - F6
     - F11
     - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - previous
+    - playpause
+    - next
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - F7
