@@ -102,7 +102,7 @@
             &trans     &kp DOLLAR &trans     &kp HOME  &kp DE_O_UMLAUT  &trans     &kp END    &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans    &kp LA(F4)  &trans          &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &kp LS(TAB) &kp TAB         &kp TAB    &kp DEL
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
