@@ -67,8 +67,8 @@ layers:
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - S-TAB
+    - TAB
     - TAB
     - DEL
   numnav:
