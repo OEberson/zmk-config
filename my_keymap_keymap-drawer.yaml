@@ -152,7 +152,7 @@ layers:
     - mute
     - vol up
     - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - c-t-v
     - F4
     - F5
     - F6
