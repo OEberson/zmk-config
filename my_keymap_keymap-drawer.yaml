@@ -60,7 +60,7 @@ layers:
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
-    - { t: ▽, type: trans }
+    - alt-F4
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
     - { t: ▽, type: trans }
