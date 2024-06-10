@@ -64,6 +64,7 @@
      macros {
         copy_tab_paste: copy_tab_paste {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp C &kp T &kp V>
