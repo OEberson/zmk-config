@@ -79,7 +79,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp DE_PLUS>
                 , <&macro_release &kp LSHFT>
-                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LCTRL>;
         };
         ctrl_shift_minus: ctrl_shift_minus {
             #binding-cells = <0>;
@@ -88,7 +88,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp DE_MINUS>
                 , <&macro_release &kp LSHFT>
-                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LCTRL>;
         };
      };
 
