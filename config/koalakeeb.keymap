@@ -72,6 +72,24 @@
                 , <&macro_release &kp LCTRL>
                 , <&macro_tap &kp ENTER>;
         };
+        ctrl_shift_+: ctrl_shift_plus {
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp DE_PLUS>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp LCTRL>
+        };
+        ctrl_shift_+: ctrl_shift_minus {
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp DE_MINUS>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp LCTRL>
+        };
      };
 
     keymap {
@@ -114,10 +132,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │shift-ctrl-tab│ ctrl-tab │ HOME     │ UP       │ END      │          │
-            &kp INS    &kp N1     &kp N2     &kp N3   &kp LC(LS(TAB)) &kp LC(TAB) &kp HOME   &kp UARW   &kp END    &trans
+            &kp INS    &kp N1     &kp N2     &kp N3   &kp LC(LS(TAB)) &kp LC(TAB) &kp HOME   &kp UARW   &kp END    &ctrl_shift_minus
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │shift-alt-tab │ alt-tab  │ LEFT     │ DOWN     │ RIGHT    │          │
-            &kp DEL     &kp N4   &kp N5     &kp N6    &kp LA(LS(TAB))  &kp LA(TAB) &kp LARW   &kp DARW   &kp RARW   &trans
+            &kp DEL     &kp N4   &kp N5     &kp N6    &kp LA(LS(TAB))  &kp LA(TAB) &kp LARW   &kp DARW   &kp RARW  &ctrl_shift_plus
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  7       │  8       │  9       │          │   │          │          │ ,        │ .        │          │
            &trans      &kp N7     &kp N8     &kp N9     &trans         &trans     &trans     &kp COMMA  &kp DOT    &trans
