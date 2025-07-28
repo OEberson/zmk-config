@@ -73,6 +73,7 @@
                 , <&macro_tap &kp ENTER>;
         };
         ctrl_shift_plus: ctrl_shift_plus {
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
@@ -82,6 +83,7 @@
                 , <&macro_release &kp LCTRL>;
         };
         ctrl_shift_minus: ctrl_shift_minus {
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
