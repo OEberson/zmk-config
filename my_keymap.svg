@@ -134,7 +134,9 @@ text.label, text.footer { stroke: black; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
-}</style>
+}
+
+svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(30, 0)" class="layer-noted">
 <text x="0" y="28" class="label" id="noted">noted:</text>
 <g transform="translate(0, 84)">
