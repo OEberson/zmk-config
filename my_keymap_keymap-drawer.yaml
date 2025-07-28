@@ -81,7 +81,7 @@ layers:
     - HOME
     - UARW
     - END
-    - ctrl_s_+
+    - alt-s-plus
     - DEL
     - "4"
     - "5"
@@ -91,7 +91,7 @@ layers:
     - LARW
     - DARW
     - RARW
-    - ctrl_s_-
+    - alt-s-minus
     - { t: ▽, type: trans }
     - "7"
     - "8"
