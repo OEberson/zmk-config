@@ -123,7 +123,9 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
-</style>
+
+
+svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(30, 0)" class="layer-noted">
 <text x="0" y="28" class="label" id="noted">noted:</text>
 <g transform="translate(0, 84)">
