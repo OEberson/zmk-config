@@ -72,7 +72,7 @@
                 , <&macro_release &kp LCTRL>
                 , <&macro_tap &kp ENTER>;
         };
-        ctrl_shift_+: ctrl_shift_plus {
+        ctrl_shift_plus: ctrl_shift_plus {
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
@@ -81,7 +81,7 @@
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp LCTRL>
         };
-        ctrl_shift_+: ctrl_shift_minus {
+        ctrl_shift_minus: ctrl_shift_minus {
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
